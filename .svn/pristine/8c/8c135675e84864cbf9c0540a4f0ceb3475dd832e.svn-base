@@ -59,9 +59,9 @@
                 <nav class="menuzord" id="main_menu">
                    <ul class="menuzord-menu">
                         <li><a href="index.html">主页</a></li>
-						<li><a href="about.html">为什么选择我们</a></li>
+						<li class="active"><a href="about.html">为什么选择我们</a></li>
                         <li><a href="service.html">我们的服务</a></li>
-						<li  class="active"><a href="project.html">案例分享</a></li>
+						<li><a href="project.html">案例分享</a></li>
                         <li><a href="contact.html">联系我们</a></li>
                     </ul><!-- End of .menuzord-menu -->
                 </nav> <!-- End of #main_menu -->
@@ -75,171 +75,176 @@
 <div class="inner-banner text-center">
     <div class="container">
         <div class="box">
-            <h3>马云公益基金会社交媒体策略（点点）</h3>
+            <h3>为什么选择我们</h3>
         </div><!-- /.box -->
         <div class="breadcumb-wrapper">
             <div class="clearfix">
                 <div class="pull-left">
                     <ul class="list-inline link-list">
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="project.html">案例分享</a></li>
-                        <li>马云公益基金会社交媒体策略（点点）</li>
-                    </ul>
-                </div>
-              <!-- /.pull-right -->
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li><!-- comment for inline hack
+                        --><li>
+                            		为什么选择我们
+                        </li>
+                    </ul><!-- /.list-line -->
+                </div><!-- /.pull-left -->
+                <div class="pull-right">
+                </div><!-- /.pull-right -->
             </div><!-- /.container -->
         </div>
     </div><!-- /.container -->
 </div>
 
-
-
-<section class="shop-single-area">
+<section class="our-history sec-padd-top">
     <div class="container">
+        <div class="section-title center">
+            <h2>承诺</h2>
+        </div>
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-products-details">       
-                    <div class="product-content-box">
-                        <div class="row">
-                            <div class="col-md-6 img-box">
-                                <div class="flexslider">
-                                    <ul class="slides">
-                                        <li data-thumb="images/user/taodiandian.jpg">
-                                            <div class="thumb-image">
-                                                <img src="images/user/taodiandian.jpg" alt="" class="img-responsive"> 
-                                            </div>
-                                        </li>
-                                         <li data-thumb="images/user/taodiandian1.jpg">
-                                            <div class="thumb-image">
-                                                <img src="images/user/taodiandian1.jpg" alt="" class="img-responsive"> 
-                                            </div>
-                                        </li>
-                                    </ul>
+            <div class="col-md-11 col-sm-10 col-xs-10">
+                    
+                <ul class="bxslider">
+                    <li>
+                        <div class="clearfix">
+                            <figure class="img-box pull-right">
+                                <a href="#"><img src="images/resource/history2.jpg" alt=""></a>
+                            </figure>
+                            <div class="content">
+                                <h4>我们的目标只有一个，就是让更多人相信我们的世界正在变得更加美好。</h4>
+                                <div class="text">
+                                    <p>客户与合作伙伴的成功就是我们的成功。我们深知互相理解和信任是成功的关键，因此我们承诺在工作中始终秉持诚信，以实现客户利益及社会利益最大化为己任。</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="content-box">
-                                    <h3>马云公益基金会社交媒体策略（点点）</h3>
-                                    <div class="review-box">
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <div class="text">
-                                        <p>在2016年马云乡村教师奖晚会期间，我们帮助马云公益基金会策划并执行了社交媒体传播活动。</p>
-                                    </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                
+        </div>         
+    </div>
+</section>
+
+<section class="our-history sec-padd-top">
+    <div class="container">
+        <div class="section-title center">
+            <h2>经验</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-11 col-sm-10 col-xs-10">
+                    
+                <ul class="bxslider">
+                    <li>
+                        <div class="clearfix">
+                            <figure class="img-box pull-left">
+                                <a href="#"><img src="images/resource/history5.jpg" alt=""></a>
+                            </figure>
+                            <div class="content">
+                                <h4>我们的合伙人均为非营利传播及倡导领域经验丰富的实践者。</h4>
+                                <div class="text">
+                                    <p>我们的合伙人均为非营利传播及倡导领域经验丰富的实践者。创始人沈迪侪曾先后服务于国内及国际性基金会和非政府组织，创立慈善项目并通过有效的传播手段将其发展壮大。另外三位合伙人是GHS的创始人及高管，其中Victor Zonana是一名资深媒体人，曾就职于洛杉矶时报、华尔街日报等主流媒体，还曾在克林顿政府担任卫生部新闻发言人；David Gold是一位倡导家，曾协助洛克菲勒基金会创办国际艾滋病疫苗行动组织并担任副总裁，还曾在世界卫生组织、联合国、美国国家卫生研究院等担任顾问；Linn Dorin曾用五年时间成为摩根史坦利最年轻的副总裁之一，还曾在美国计划生育协会和国际艾滋病疫苗行动组织担任首席行政官及首席财务官。</p>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix">
+                            <figure class="img-box pull-right">
+                                <a href="#"><img src="images/resource/history6.jpg" alt=""></a>
+                            </figure>
+                            <div class="content">
+                                <h4>我们的团队曾为公益慈善领域的许多机构及个人的传播倡导工作贡献过绵薄之力</h4>
+                                <div class="text">
+                                    <p>我们的团队曾为公益慈善领域的许多机构及个人的传播倡导工作贡献过绵薄之力，例如比尔·盖茨私人办公室、比尔及梅琳达·盖茨基金会、世界卫生组织、全球疫苗免疫联盟、马云公益基金会、微公益、斯坦福大学亚裔肝脏中心等。我们了解公益组织本身的优势及限制，善于利用有限的预算制定有效的传播策略，并且通过资源整合的方式实现传播影响力的最大化。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <!-- 
+                <div class="slider-pager">
+                    <div class="center">
+                        <ul class="nav-link list-inline">
+                            <li id="slider-prev"></li>
+                            <li id="slider-next"></li>
+                        </ul>  
                     </div>
-                </div>    
-            </div>       
-        </div>
+                </div>
+                 -->
+            </div>
+                
+        </div>         
     </div>
-</section>     
-
+</section>
 
 <section class="our-history sec-padd-top">
     <div class="container">
         <div class="section-title center">
-            <h2>客户简介</h2>
+            <h2>贡献</h2>
         </div>
         <div class="row">
             <div class="col-md-11 col-sm-10 col-xs-10">
-                <ul class="bxslider">
+                    
+                <ul class="bxslider ">
                     <li>
                         <div class="clearfix">
+                            <figure class="img-box pull-right">
+                                <a href="#"><img src="images/resource/history3.jpg" alt=""></a>
+                            </figure>
                             <div class="content">
-                                <h4>马云公益基金会由阿里巴巴集团董事局主席马云先生个人发起并捐赠成立，于2014年12月注册于浙江省民政厅</h4>
+                                <h4>我们拥有资源、远见和经验</h4>
                                 <div class="text">
-                                    <p>基金会在初期将重点关注教育发展领域，尤其是作为中国教育重要组成部分的乡村教育，基金会相信，活跃的优秀教师是乡村教育未来发展的中流砥柱，他们有着从事乡村教育的热情和愿意奉献的职业认同感和幸福感；在教育教学上追求创新，能够运用教育智慧解决教育问题；热爱儿童，尊重儿童，带给乡村儿童以阳光和温暖。</p>
+                                    <p>我们拥有资源、远见和经验，不仅能在品牌传播方面，而且可以通过其他不同方式帮助公益组织、品牌和项目等的发展。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix">
+                            <figure class="img-box pull-left">
+                                <a href="#"><img src="images/resource/history6.jpg" alt=""></a>
+                            </figure>
+                            <div class="content">
+                                <h4>我们可以帮助客户寻找合作伙伴</h4>
+                                <div class="text">
+                                    <p>我们可以帮助客户寻找合作伙伴。我们经常在一个公益传播项目的最早期就介入策划，我们在公益领域的经验和网络确保我们能够帮助客户搜寻、甄别及说服具有影响力的品牌及个人参与合作。我们努力帮助构建公益传播网络，希望帮助更多的公益组织（特别是本土公益组织和品牌）连接到尽可能强大的资源。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix">
+                            <figure class="img-box pull-right">
+                                <a href="#"><img src="images/resource/history4.jpg" alt=""></a>
+                            </figure>
+                            <div class="content">
+                                <h4>我们可以帮助客户完善传播策略规划</h4>
+                                <div class="text">
+                                    <p>我们可以帮助客户完善传播策略规划。我们享受与公益领域践行者进行头脑风暴的过程，能在完善自媒体内容策略、线上/线下推广计划及重大活动宣传策略上提供协助。
+我们可以向客户介绍关键资源。无论是在中国本土，还是美国纽约、印度新德里、巴西里约热内卢、英国伦敦和肯尼亚内罗毕，我们与兄弟公司GHS共享着直保持着由政策制定者、倡导者、学者和记者共同组成的全球资源网络，希望使用这些资源从不同角度帮助国内的慈善家及公益组织。</p>
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
+                <!-- 
+                <div class="slider-pager">
+                    <div class="center">
+                        <ul class="nav-link list-inline">
+                            <li id="slider-prev"></li>
+                            <li id="slider-next"></li>
+                        </ul>  
+                    </div>
+                </div>
+                 -->
             </div>
                 
         </div>         
     </div>
 </section>
 
-<section class="our-history sec-padd-top">
-    <div class="container">
-        <div class="section-title center">
-            <h2>客户需求</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-11 col-sm-10 col-xs-10">
-                <ul class="bxslider">
-                    <li>
-                        <div class="clearfix">
-                            <div class="content">
-                                <h4>尽管基金会的乡村教育项目影响力与日俱增，但公众对其主要议题的兴趣和了解仍然不够</h4>
-                                <div class="text">
-                                    <p>行政部门对基金会的项目大体持正面态度，但对基金会的理念和整体规划仍不够理解。基金会的理事们在各行各业拥有强大影响力，但仍需在社交媒体培育更多支持基金会理念的意见领袖。通过马云乡村教师奖和马云乡村校长计划两个大活动，基金会获得了众多明星和重要机构资源的支持，但这种支持不够持续，需要建立稳定联系。</p></br>
-                                    <p>基金会希望通过其已有的社交媒体平台（主要包括微博和微信），传播其公益理念，唤醒公众意识，鼓励公众关注并参与改善乡村教育现状中来。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-                
-        </div>         
-    </div>
-</section>
 
-<section class="our-history sec-padd-top">
-    <div class="container">
-        <div class="section-title center">
-            <h2>我们的方案</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-11 col-sm-10 col-xs-10">
-                <ul class="bxslider">
-                    <li>
-                        <div class="clearfix">
-                            <div class="content">
-                                <h4>在受到客户委托后，我们对马云基金会微博和微信的内容、阅读与互动量进行了统计和分析，发现大部分内容都是马云乡村教师奖和马云乡村校长计划相关，且互动内容较少。但由于基金会创始人马云和其理事的影响力高、号召力强，且由于两次大活动，基金会也在教育领域和公众中建立了一定的知名度。</h4>
-                                <div class="text">
-                                    <p>根据这些情况，我们制定了一个循序渐进的社交媒体传播策略。首先，借助马云乡村教师奖和马云乡村校长计划两次大活动，通过社会化媒体传播、多媒体内容与名人效应，扩大基金会知名度，增加粉丝基数。与此同时，增加并系统化常规内容规划：通过乡村教育者故事、新闻、教育理念、心得展示乡村教育者及乡村教育现状的变化；通过基金会内部、合作伙伴新闻展示出促进教育公平的人们在行动；通过互动性内容让更多人参与进来。重大活动与更充实的常规内容相结合，最终提高基金会的美誉度。</p></br>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-                
-        </div>         
-    </div>
-</section>
-
-<section class="our-history sec-padd-top">
-    <div class="container">
-        <div class="section-title center">
-            <h2>传播效果</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-11 col-sm-10 col-xs-10">
-                <ul class="bxslider">
-                    <li>
-                        <div class="clearfix">
-                            <div class="content">
-                                <h4>在2016年马云乡村教师奖晚会期间，我们帮助马云公益基金会策划并执行了社交媒体传播活动，包括建立新话题配合海报、视频等创意形式推广教师奖并鼓励粉丝互动，让更多的人了解奖项，以及背后所推广的乡村教育理念。期间微博阅读量达到3,741万，互动量达21万。直播观看人数4,200万，视频播放量213万，新增粉丝数3.5万。</h4>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-                
-        </div>         
-    </div>
-</section>
 
 <div class="call-out">
     <div class="container">
@@ -381,7 +386,6 @@
 
     <!-- fancy box -->
     <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/isotope.js"></script>
     <script src="js/jquery.polyglot.language.switcher.js"></script>
     <script src="js/nouislider.js"></script>
     <script src="js/jquery.bootstrap-touchspin.js"></script>
