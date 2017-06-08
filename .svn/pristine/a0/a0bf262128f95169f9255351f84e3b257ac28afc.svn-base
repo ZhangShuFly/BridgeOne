@@ -75,7 +75,7 @@
     <div id="slider1" class="rev_slider"  data-version="5.0">
         <ul>
             <li data-transition="fade">
-                <img src="images/user/homepage-pattern_4.jpg"  alt="" width="1920" height="1080" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="images/user/homepage-pattern_2.png"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
         		 
         		 <div class="tp-caption tp-resizeme" 
                     data-x="center" data-hoffset="0" 
@@ -128,7 +128,7 @@
             </li>
             <li data-transition="fade">
            <!-- <img src="images/slider/2.jpg"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" > -->     
-                <img src="images/user/homepage-pattern_4.jpg"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="images/user/homepage-pattern_2.png"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 
                 <div class="tp-caption tp-resizeme" 
                     data-x="center" data-hoffset="0" 
@@ -179,7 +179,7 @@
 
             </li>
             <li data-transition="fade">
-                <img src="images/user/homepage-pattern_4.jpg"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="images/user/homepage-pattern_2.png"  alt="" width="1920" height="683" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 <div class="tp-caption tp-resizeme" 
                     data-x="center" data-hoffset="0" 
                     data-y="center" data-voffset="-60" 
