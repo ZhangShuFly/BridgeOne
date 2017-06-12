@@ -2785,7 +2785,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 ***/
 .whychoos-us {
-  /*background: #f7f7f7;*/
+  background: #f7f7f7;
 }
 
 .whychoos-us .section-title {

@@ -13,14 +13,10 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
-    <style>
-
-</style>
 </head>
-<body >
+<body>
 
-<div class="boxed_wrapper" style="background: url('images/user/trianglepattern.png')">
+<div class="boxed_wrapper">
 
 <header class="top-bar">
     <div class="container">
@@ -194,7 +190,7 @@
     </div>
 </section>
 
-<section class="whychoos-us sec-padd2" >
+<section class="whychoos-us sec-padd2">
     <div class="container">
         
         <div class="section-title center">
@@ -258,72 +254,6 @@
 </section>
 
 
-<section class="default-section sec-padd " style="width:100%;background-color: #148391  ;transform: skew(3deg, 3deg); width: 110%;margin-left: -20px;">
-    <div class="container" style="transform: skew(-3deg, -3deg);">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="text-content">
-                    <h4>我们的服务</h4>
-                    <div class="text" >
-                        <p style="color: white;">我们提供最优质的服务，因为专业所以优秀。</p>
-                    </div>
-                    <ul class="default-list">
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>传播策略咨询</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>社交媒体账号运营</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>线上线下传播活动策划</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>传播项目管理</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>利益相关方调研</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>粉丝社群搭建与管理</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o"></i>多媒体内容策划及制作</li>
-                    </ul>
-                    <div class="text">
-                        <p style="color: white;">我们拥有资源、远见和经验，不仅能在品牌传播方面，而且可以通过其他不同方式帮助公益组织、品牌和项目等的发展。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="img-box">
-                    <a href="#"><img src="images/user/p1.png" alt="" style="width: 70%;height: 70%;"></a>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="default-section sec-padd" >
-    <div class="container">
-        <div class="row">
-        	<div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="img-box">
-                    <a href="#"><img src="images/user/p1.png" alt="" style="width: 70%;height: 70%;"></a>
-                </figure>
-            </div>
-        
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="text-content">
-                    <h4 style="color: black;">案例分享</h4>
-                    <div class="text">
-                        <p style="color: black;">我们在这个行业拥有令人羡慕的声誉，拥有世界顶尖的人才，有为马云基金会、比尔盖茨基金会等公司提供服务的经验。</p>
-                    </div>
-                    <ul class="default-list">
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>马云公益基金会社交媒体策略</i></li>
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>比尔•盖茨中文社交媒体平台</li>
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>世界卫生组织提高抗生素耐药性意识周宣传活动策划</li>
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>电影《喜禾》公益传播</li>
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>“世界公民初长成”社群搭建与管理</li>
-                        <li style="color: black;"><i class="fa fa-check-square-o"></i>世界免疫周公益MV策划及制作</li>
-                    </ul>
-                    <div class="text">
-                        <p style="color: black;">案例见证了我们的成长，也是我们实力的验证。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
- </section>   
-
-<!-- 
 <section class="service-style3 sec-padd2">
     <div class="container">
         <div class="section-title">
@@ -344,7 +274,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_1.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>传播策略咨询</h4></a>
@@ -361,18 +291,18 @@
             <div class="item">
 
                 <div class="bottom-content">
- 				<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-landscape"></span>
                     </div>
-                   <h4>社交媒体账号运营</h4></a>
+                    <a href="#"><h4>社交媒体账号运营</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_2.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>社交媒体账号运营</h4></a>
@@ -388,18 +318,18 @@
             <div class="item">
 
                 <div class="bottom-content">
-					<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-laptop"></span>
                     </div>
-                    <h4>线上线下传播活动策划</h4></a>
+                    <a href="#"><h4>线上线下传播活动策划</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                          <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_3.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>线上线下传播活动策划</h4></a>
@@ -415,18 +345,18 @@
               <div class="item">
 
                 <div class="bottom-content">
-					<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-transport"></span>
                     </div>
-                    <h4>传播项目管理</h4></a>
+                    <a href="#"><h4>传播项目管理</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_4.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>传播项目管理</h4></a>
@@ -442,18 +372,18 @@
             <div class="item">
 
                 <div class="bottom-content">
-					<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-commerce"></span>
                     </div>
-                    <h4>利益相关方调研</h4></a>
+                    <a href="#"><h4>利益相关方调研</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_5.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>利益相关方调研</h4></a>
@@ -468,18 +398,18 @@
                         <div class="item">
 
                 <div class="bottom-content">
-<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-shapes"></span>
                     </div>
-                    <h4>粉丝社群搭建与管理</h4></a>
+                    <a href="#"><h4>粉丝社群搭建与管理</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                          <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>粉丝社群搭建与管理</h4></a>
@@ -494,18 +424,18 @@
                         <div class="item">
 
                 <div class="bottom-content">
-				<a href="./service.html">
+
                     <div class="icon_box">
                         <span class="icon-note"></span>
                     </div>
-                    <h4>多媒体内容策划及制作</h4></a>
+                    <a href="#"><h4>多媒体内容策划及制作</h4></a>
                 </div>
                 <div class="overlay-box">
                  <a href="./service.html">
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_1.png" style="opacity:0.1;width: 100%;height: 100%;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>多媒体内容策划及制作</h4></a>
@@ -532,6 +462,7 @@
         </div>
         
         <div class="service_carousel">
+            <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -553,6 +484,7 @@
                     </div>
                 </div>
             </article>
+            <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -574,6 +506,7 @@
                     </div>
                 </div>
             </article>
+            <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -596,6 +529,7 @@
                 </div>
             </article>
             
+            <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -618,6 +552,7 @@
                 </div>
             </article>
             
+            <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -639,6 +574,7 @@
                     </div>
                 </div>
             </article>
+               <!--Featured Service -->
             <article class="single-column">
                 <div class="item">
                     <figure class="img-box">
@@ -664,7 +600,7 @@
             
     </div>
 </section>
- -->
+
 
 <div class="container"><div class="border-bottom"></div></div>
 
