@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+.bo_img,.zhi_img
+	{
+	position:relative;
+	font-weight:bold;
+	padding:20px 10px 0px 10px;
+	animation:left_img 3s 1;
+	-moz-animation:left_img 3s 1;
+	-webkit-animation:left_img 3s 1;
+	-o-animation:left_img 3s 1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	}
+@keyframes left_img
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	100%	{transform: rotate(-360deg);left:0px;}
+	}
+
+@-webkit-keyframes left_img
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	100%	{transform: rotate(-360deg);left:0px;}
+	}
+
+@-moz-keyframes left_img
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	100%	{transform: rotate(-360deg);left:0px;}
+	}
+
+@-o-keyframes left_img
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	100%	{transform: rotate(-360deg);left:0px;}
+	}
+
+.bo_text,.zhi_text
+	{
+	position:relative;
+	font-weight:bold;
+	padding:20px 10px 0px 10px;
+	animation:left_text 3s 1;
+	-moz-animation:left_text 3s 1;
+	-webkit-animation:left_text 3s 1;
+	-o-animation:left_text 3s 1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	}	
+
+
+@keyframes left_text
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	50%		{transform: rotate(0deg);right:0px;}
+	100%	{transform: rotate(0deg);right:0px;}
+	}
+
+@-webkit-keyframes left_text
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	50%		{transform: rotate(0deg);right:0px;}
+	100%	{transform: rotate(0deg);right:0px;}
+	}
+
+@-moz-keyframes left_text
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	50%		{transform: rotate(0deg);right:0px;}
+	100%	{transform: rotate(0deg);right:0px;}
+	}
+
+@-o-keyframes left_text
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	50%		{transform: rotate(0deg);right:0px;}
+	100%	{transform: rotate(0deg);right:0px;}
+	}
+	
+	
+.rui_img
+	{
+	position:relative;
+	font-weight:bold;
+	padding:20px 10px 0px 10px;
+	animation:right_img 5s 1;
+	-moz-animation:right_img 5s 1;
+	-webkit-animation:right_img 5s 1;
+	-o-animation:right_img 5s 1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	}
+
+@keyframes right_img
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	100%	{transform: rotate(-360deg);right:0px;}
+	}
+
+@-webkit-keyframes right_img
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	100%	{transform: rotate(-360deg);right:0px;}
+	}
+
+@-moz-keyframes right_img
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	100%	{transform: rotate(-360deg);right:0px;}
+	}
+
+@-o-keyframes right_img
+	{
+	0%		{transform: rotate(0deg);right:500px;}
+	100%	{transform: rotate(-360deg);right:0px;}
+	}	
+	
+.rui_text
+	{
+	position:relative;
+	font-weight:bold;
+	padding:20px 10px 0px 10px;
+	animation:right_text 5s 1;
+	-moz-animation:right_text 5s 1;
+	-webkit-animation:right_text 5s 1;
+	-o-animation:right_text 5s 1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	}
+	
+@keyframes right_text
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	50%		{transform: rotate(0deg);left:0px;}
+	100%	{transform: rotate(0deg);left:0px;}
+	}
+
+@-webkit-keyframes right_text
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	50%		{transform: rotate(0deg);left:0px;}
+	100%	{transform: rotate(0deg);left:0px;}
+	}
+
+@-moz-keyframes right_text
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	50%		{transform: rotate(0deg);left:0px;}
+	100%	{transform: rotate(0deg);left:0px;}
+	}
+
+@-o-keyframes right_text
+	{
+	0%		{transform: rotate(0deg);left:500px;}
+	50%		{transform: rotate(0deg);left:0px;}
+	100%	{transform: rotate(0deg);left:0px;}
+	}	
+	
+	
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.userA {
+	background-color: #DB5705;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 9px 0 #DB1F05, 0 9px 25px rgba(0, 0, 0, 0.7);
+	color: #FFFFFF;
+	display: block;
+	font-family: '微软雅黑';
+	font- size: 42px;
+	font-weight: 700;
+	margin: 100px auto;
+	padding: 4px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.1s ease 0s;
+	width: 260px;
+}
+
+.userA:active {
+	box-shadow: 0 3px 0 #DB1F05, 0 3px 6px rgba(0, 0, 0, 0.9);
+	position: relative;
+	top: 6px;
+}

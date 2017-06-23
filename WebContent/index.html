@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 <head>
     <meta charset="UTF-8">
     <title></title> 
@@ -7,22 +7,48 @@
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" href="images/user/logo_1.png">
+	<link rel="shortcut icon" href="images/logo/logo_new.png">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/jquery.js"></script>
     
-    <style>
+    <link rel="stylesheet" href="css/user.css">
+  
+<script type="text/javascript">
+var hasreveal = ""
 
-</style>
+function revealOnScroll() {
+  var scrolled = $(window).scrollTop();
+  // 视窗，即viewport，页面可视范围的窗口
+  $("div[id$='text']").each(function() {
+    var current = $(this), // 当前元素
+      w_height = $(window).outerHeight(), //视窗高度
+      offsetTop = current.offset().top; //当前元素离顶部的高度
+    // 计算高度差（此处预留50是为了看效果）
+    // 当元素进入视窗时，添加class
+    if (scrolled + w_height - 50 > offsetTop ) {
+    	if(-1==hasreveal.indexOf($(this).attr('id')))  {
+    		 current.addClass($(this).attr('id'));
+    		 hasreveal = hasreveal+ "-"+$(this).attr('id');
+    	}
+     
+    } else {
+      current.removeClass($(this).attr('id'));
+    }
+  });
+}
+$(window).on("scroll", revealOnScroll);
+</script>
+
 </head>
 <body >
 
-<div class="boxed_wrapper" style="background: url('images/user/trianglepattern.png')">
+<div class="boxed_wrapper" style="background: url('images/user/trianglepattern_1.png')">
 
-<header class="top-bar">
+<header class="top-bar" style="display: none;">
     <div class="container">
         <div class="clearfix">
             <div class="col-left float_left">
@@ -36,7 +62,7 @@
                 </div>
 
             </div>
-            <div class="col-right float_right">
+            <div class="col-right float_right" >
                 <ul class="social">
                      <li><i class="icon-technology"></i>电话: &nbsp;(010) 8532 6193</li>
                     <li><i class="icon-note2"></i>邮箱:&nbsp; ​info@bridgebeijing.com</li>
@@ -65,7 +91,9 @@
 						<li><a href="about.html">为什么选择我们</a></li>
                         <li><a href="service.html">我们的服务</a></li>
 						<li><a href="project.html">案例分享</a></li>
-                        <li><a href="contact.html">联系我们</a></li>
+                        <li><a href="contact.html">关于我们</a></li>
+                        <li><a href="contact.html">加入我们</a></li>
+                       <li><a href="#">English</a></li>
                     </ul><!-- End of .menuzord-menu -->
                 </nav> <!-- End of #main_menu -->
             </div>
@@ -79,7 +107,7 @@
     <div id="slider1" class="rev_slider"  data-version="5.0">
         <ul>
             <li data-transition="fade">
-                <img src="images/user/homepage-pattern_4_n_9.png"  alt="" width="1920" height="1080" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="images/user/home_p.png" alt="" width="1920" height="1080" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
         		 
                  <div class="tp-caption tp-resizeme"
                     data-x="center" data-hoffset="" 
@@ -93,8 +121,8 @@
                     data-responsive_offset="on"
                     data-start="500">
                     <div class="slide-content-box center">
-                      <h1>深切关注中国及全球 <br>公益慈善事业发展的传播 </h1>
-                        <p>由总部位于美国纽约的国际咨询公司Global Health Strategies（简称GHS）<br>和中国的社会企业北京乐起来文化咨询有限公司于2016年合资成立。  </p>
+                      <h1>我们利用新媒体建立社群<br>与公益机构和人士一起改变世界 </h1>
+                        <p>我们虽是一家商业机构，但衡量成功的最重要指标是社会影响力。<br>我们被“世界在变好”的信念驱动，将客户视为实现共同愿景的伙伴，在服务客户的同时为公益事业贡献绵薄之力。  </p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -109,7 +137,7 @@
                     data-start="2300">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn-tr" href="./about.html">为什么选择我们</a>     
+                            <a class="thm-btn-tr" href="./contact.html">关于我们</a>     
                         </div>
                     </div>
                 </div>
@@ -197,17 +225,18 @@
 
 <section class="service " style="z-index:9999; margin-top: -80px; " >
     <div class="container" style="max-width:55.5555555556em;background-color: white; padding-left: 30px; padding-right: 30px; padding-top: 10px;padding-bottom: 10px;" >
-        <div class="row" style="background-color: #E0E0E0;">
+        <div class="row" style="background-color: #ED7300;">
         	<article class="col-md-4 col-sm-12 col-xs-12" style="text-align: center; padding: 10px;">
                 <div class="item">
                     <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="images/user/mayun.jpg" alt="Awesome Image" style="height: 255px;">
+                        <figure class="imghvr-shutter-in-out-horiz" style="height: 255px; ">
+                            <img src="images/logo/logo_n_1.png" alt="Awesome Image" width="100%" height="100%">
                            	 <a href="mayun-single.html">
                             <figcaption>
                                 <div class="content">
-                                   <h4>马云公益基金会</h4>
-                                    <p>社交媒体策略（点点）</p>
+                                   <h3>马云公益基金会</h3>
+                                   </br>
+                                    <p>在2016年马云乡村教师奖晚会期间，我们帮助马云公益基金会策划并执行了社交媒体传播活动。</p>
                                 </div> 
                             </figcaption>
                             </a>
@@ -215,7 +244,7 @@
                         
                       <div class="center">
                         <div class="text" >
-                            <p>在2016年马云乡村教师奖晚会期间，我们帮助马云公益基金会策划并执行了社交媒体传播活动。</p>
+                            <p></p>
                         </div>
                     </div>
                     </div>
@@ -224,13 +253,14 @@
                	<article class="col-md-4 col-sm-12 col-xs-12" style="text-align: center; padding: 10px;">
                 <div class="item">
                     <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="images/user/bier.jpg" alt="Awesome Image">
-                           	 <a href="mayun-single.html">
+                        <figure class="imghvr-shutter-in-out-horiz" style="height: 255px; ">
+                            <img src="images/logo/logo_n_1.png" alt="Awesome Image" width="100%" height="100%">
+                           	 <a href="bill-single.html">
                             <figcaption>
                                 <div class="content">
-                                   <h4>比尔·盖茨</h4>
-                                    <p>中文社交媒体平台</p>
+                                   <h3>比尔·盖茨</h3>
+                                   </br>
+                                    <p>指导客户拍摄了一条由盖茨出镜讲中文的欢迎视频，并且借助主流媒体对盖茨开设微信公众号的宣传。</p>
                                 </div> 
                             </figcaption>
                             </a>
@@ -238,7 +268,7 @@
                         
                       <div class="center">
                         <div class="text" >
-                            <p>指导客户拍摄了一条由盖茨出镜讲中文的欢迎视频，并且借助主流媒体对盖茨开设微信公众号的宣传。</p>
+                            <p></p>
                         </div>
                     </div>
                     </div>
@@ -247,13 +277,14 @@
                   	<article class="col-md-4 col-sm-12 col-xs-12" style="text-align: center; padding: 10px;">
                 <div class="item">
                     <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="images/user/health.jpg" alt="Awesome Image">
-                           	 <a href="mayun-single.html">
+                        <figure class="imghvr-shutter-in-out-horiz" style="height: 255px; ">
+                            <img src="images/logo/logo_n_1.png" alt="Awesome Image" width="100%" height="100%">
+                           	 <a href="who-single.html">
                             <figcaption>
                                 <div class="content">
-                                   <h4>世界卫生组织</h4>
-                                    <p>社交媒体宣传</p>
+                                   <h3>世界卫生组织</h3>
+                                   </br>
+                                    <p>我们帮世界卫生组织联系到23位高知名度的医生、科普工作者和主持人参与话题和内容的传播及推广</p>
                                 </div> 
                             </figcaption>
                             </a>
@@ -261,7 +292,7 @@
                         
                       <div class="center">
                         <div class="text" >
-                            <p>我们帮世界卫生组织联系到23位高知名度的医生、科普工作者和主持人参与话题和内容的传播及推广</p>
+                            <p></p>
                         </div>
                     </div>
                     </div>
@@ -272,7 +303,7 @@
     </div>
 </section>
 
-<section class="whychoos-us sec-padd2" >
+<!-- <section class="whychoos-us sec-padd2" >
     <div class="container" >
         
         <div class="section-title center">
@@ -284,7 +315,7 @@
             
         
         <div class="row clearfix">
-            <!--Featured Service -->
+            Featured Service
             <article class="column col-md-4 col-sm-6 col-xs-12">
                 <div class="item">
                     <div class="icon_box">
@@ -295,11 +326,11 @@
                         <p>我们的目标只有一个，就是让更多人相信我们的世界正在变得更加美好。客户与合作伙伴的成功就是我们的成功。</p>
                     </div>
                     <div class="count" >
-                   	 	<img  src="images\logo\logo_1_n_6.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
+                   	 	<img  src="images\logo\logo_n_1.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
                     </div>
                 </div>
             </article>
-            <!--Featured Service -->
+            Featured Service
             <article class="column col-md-4 col-sm-6 col-xs-12">
                 <div class="item">
                     <div class="icon_box">
@@ -310,11 +341,11 @@
                         <p>我们的合伙人均为非营利传播及倡导领域经验丰富的实践者。创始人沈迪侪曾先后服务于国内及国际性基金会和非政府组织。</p>
                     </div>
                     <div class="count">
-                    	<img  src="images\logo\logo_1_n_6.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
+                    	<img  src="images\logo\logo_n_1.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
                     </div>
                 </div>
             </article>
-            <!--Featured Service -->
+            Featured Service
             <article class="column col-md-4 col-sm-6 col-xs-12">
                 <div class="item">
                     <div class="icon_box">
@@ -325,7 +356,7 @@
                         <p>我们拥有资源、远见和经验，不仅能在品牌传播方面，而且可以通过其他不同方式帮助公益组织、品牌和项目等的发展。</p>
                     </div>
                     <div class="count">
-                    	<img  src="images\logo\logo_1_n_6.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
+                    	<img  src="images\logo\logo_n_1.png" style="float: right;opacity:0.1;width: 50%;height: 50%;"></img>
                     </div>
                 </div>
             </article>
@@ -333,48 +364,96 @@
         </div>
             
     </div>
-</section>
+</section> -->
 
-
-<section class="default-section sec-padd " style="width:100%;background-color: #EC7301  ;transform: skew(3deg, 3deg); width: 110%;margin-left: -20px;">
-    <div class="container" style="transform: skew(-3deg, -3deg);">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
+<section class="default-section sec-padd " style="width:100%;margin-top:120px;  background-color: #EC7301  ;transform: skew(2deg, 2deg); width: 110%;margin-left: -20px;">
+    <div class="container" style="transform: skew(-2deg, -2deg);">
+        <div class="row" >
+            <div class="col-md-7 col-sm-12 col-xs-12" id="bo_text">
                 <div class="text-content" style="padding-left: 20px;">
-                    <h4>我们的服务</h4>
-                    <div class="text" >
-                        <p style="color: white;">我们提供最优质的服务，因为专业所以优秀。</p>
+                    <h1 class="section-title" style="font-weight: 600;color: white;">我们提供专业的公益传播咨询和服务</h1>
+                    
+                    <div class="text" style="margin-top: 50px;">
+                        <p style="color: white;">我们帮助基金会、非政府组织和企业CSR部门借助有效的传播手段，与包括公众在内的利益相关方进行更好的沟通，目标是让越来越多的人热爱公益并采取支持性的行动。</p>
                     </div>
-                    <ul class="default-list">
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>传播策略咨询</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>社交媒体账号运营</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>线上线下传播活动策划</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>传播项目管理</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>利益相关方调研</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>粉丝社群搭建与管理</li>
-                        <li style="color: white;"><i class="fa fa-check-square-o" style="color: #148391"></i>多媒体内容策划及制作</li>
-                    </ul>
-                    <div class="text">
-                        <p style="color: white;">我们拥有资源、远见和经验，不仅能在品牌传播方面，而且可以通过其他不同方式帮助公益组织、品牌和项目等的发展。</p>
+                    
+                    <div class="button" style="margin-top: 130px;">
+                            <a class="userA" href="./about.html">为什么选择我们</a>     
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="img-box" style="padding-left: 20px;">
-                    <a href="#"><img  src="images/user/p2.png" alt="" style="width: 70%;height: 70%;"></a>
+            <div class="col-md-5 col-sm-12 col-xs-12" id="bo_img">
+                <figure class="img-box" style="text-align: center;">
+                    <a href="#"><img  src="images/user/bo_2.png" alt="" style="opacity:0.3; width: 80%;height: 80%;" ></a>
                 </figure>
             </div>
         </div>
     </div>
 </section>
 
+<section class="default-section sec-padd " >
+    <div class="container">
+       <div class="row" >
+       		<div class="col-md-5 col-sm-12 col-xs-12" id="rui_img">
+                <figure class="img-box" style="text-align: center;">
+                    <a href="#"><img  src="images/user/rui_2.png" alt="" style="opacity:0.3; width: 80%;height: 80%;" ></a>
+                </figure>
+            </div>
+       
+            <div class="col-md-7 col-sm-12 col-xs-12" id="rui_text">
+                <div class="text-content" style="padding-left: 20px;">
+                    <h1 class="section-title" style="font-weight: 600;color: #222;">我们致力于成为国内最领先的公益传播咨询机构</h1>
+                    
+                    <div class="text" style="margin-top: 50px;">
+                        <p style="color: #222;">我们相信中国的非营利领域发展前景广阔，但若要产生可持续的积极改变，首先需要做的是消除误解和障碍，以及传播“人人公益”的慈善文化——这是我们的存在的价值与使命。</p>
+                    </div>
+                    
+                    <div class="button" style="margin-top: 130px;">
+                            <a class="userA" href="./service.html">我们的服务</a>     
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+</section>
 
-<section class="default-section sec-padd" >
+
+<section class="default-section sec-padd " style="width:100%;  background-color: #EC7301;  -webkit-transform: skew(-2deg, -2deg); width: 110%;margin-left: -20px;">
+    <div class="container">
+        <div class="row"  style="transform: skew(2deg, 2deg);">
+             <div class="col-md-7 col-sm-12 col-xs-12" id="zhi_text">
+                <div class="text-content" style="padding-left: 20px;">
+                   <h1 class="section-title" style="font-weight: 600;color: white;">加入播锐智，与志同道合的人一起改变世界吧！</h1>	
+           
+                    <div class="text" style="margin-top: 50px;">
+                        <p style="color: white;">我们最看重应聘者以下特质（按重要性排序）：对公益和传播的热情、追求卓越的态度、敏而好学的精神、团队合作的能力。</p>
+                        <p style="color: white;">我们投资有才华的创变者，帮助他们通过完成既有意思又有意义的工作而成长为公益领域的领导者。我们的团队致力于改变社会的气质，并且在此过程中互相促进成为更有创意、更有策略的复杂问题解决者。 </p>
+                    </div>
+                    
+                    <div class="button" style="margin-top: 90px; margin-bottom: 50px;">
+                            <a class="userA" href="./joinus.html" >加入我们</a>     
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 col-xs-12" id="zhi_img">
+                <figure class="img-box" style="text-align: center;">
+                    <a href="#"><img  src="images/user/zhi_2.png" alt="" style="opacity:0.3;width: 80%;height: 80%;" ></a>
+                </figure>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- <section class="default-section sec-padd" >
     <div class="container">
         <div class="row">
         	<div class="col-md-6 col-sm-12 col-xs-12" >
                 <figure class="img-box" style="padding-left: 20px;">
-                    <a href="#"><img src="images/user/p2.png" alt="" style="width: 70%;height: 70%;"></a>
+                    <a href="#"><img src="images/user/p3.png" alt="" style="width: 80%;height: 80%;"></a>
                 </figure>
             </div>
         
@@ -400,7 +479,7 @@
         </div>
     </div>
  </section>   
-
+ -->
 <!-- 
 <section class="service-style3 sec-padd2">
     <div class="container">
@@ -422,7 +501,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>传播策略咨询</h4></a>
@@ -450,7 +529,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>社交媒体账号运营</h4></a>
@@ -477,7 +556,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                          <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>线上线下传播活动策划</h4></a>
@@ -504,7 +583,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>传播项目管理</h4></a>
@@ -531,7 +610,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>利益相关方调研</h4></a>
@@ -557,7 +636,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                          <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>粉丝社群搭建与管理</h4></a>
@@ -583,7 +662,7 @@
                     <div class="inner-box">
                         <div class="icon_box">
                         <span class="icon-1">
-                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 70%;height: 70%;float: right;margin-top: 15px;"></img>
+                          	<img  src="images\logo\logo_1_n_6.png" style="opacity:0.08;width: 80%;height: 80%;float: right;margin-top: 15px;"></img>
                         </span>
                         </div>
                         <a href="#"><h4>多媒体内容策划及制作</h4></a>
@@ -747,7 +826,7 @@
 <div class="container"><div class="border-bottom"></div></div>
 
 
-<div class="call-out">
+<div class="call-out" style="margin-top:-50px;position:relative;">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12">
@@ -759,7 +838,6 @@
                 <div class="float_left">
                     <h4>我们致力于与客户及广泛的合作伙伴一道，通过制定和实施创意可落地、效果可衡量的公益传播策略，确保对促进可持续发展和改善弱势人群生活的重要倡议在目标受众中得到有效的关注、理解和支持。</h4>
                 </div>
-               
             </div>
         </div>
                 
@@ -784,7 +862,7 @@
                                 <div class="widget-content">
                                     <div class="text"><p style="color: #fff;">我们承诺在工作中始终秉持诚信，以实现客户利益及社会利益最大化为己任。</br>我们的合伙人均为非营利传播及倡导领域经验丰富的实践者。</br>我们拥有资源、远见和经验，不仅能在品牌传播方面，而且可以通过其他不同方式帮助公益组织、品牌和项目等的发展。</p> </div>
                                     <div class="link">
-                                        <a href="#" class="default_link">了解更多<i class="fa fa-angle-right"></i></a>
+                                        <a href="about.html" class="default_link">了解更多<i class="fa fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
